@@ -5,8 +5,8 @@
     <string name="liked_posts">Liked Posts</string>
     <string name="bookmarked_posts">Bookmarked Posts</string>
     <string name="followed_hashtags">Followed Hashtags</string>
-    <string name="blocked_accounts">Blocked Accounts</string>
-    <string name="muted_accounts">Muted Accounts</string>
+    <string name="blocked_accounts">Blocked Profiles</string>
+    <string name="muted_accounts">Muted Profiles</string>
     <string name="logout">Logout</string>
     <string name="open_in_browser">Open in browser</string>
     <string name="share_this_profile">Share this profile</string>
@@ -26,7 +26,7 @@
     <string name="followed_you">followed you</string>
     <string name="share_this_post">Share this post</string>
     <string name="trending">Trending</string>
-    <string name="accounts">Accounts</string>
+    <string name="accounts">Profiles</string>
     <string name="rules">Rules</string>
     <string name="instance_version">Instance version</string>
     <string name="terms_of_use">Terms of use</string>
@@ -36,9 +36,9 @@
     <string name="stats">Stats</string>
     <string name="unblock">unblock</string>
     <string name="unblock_caps">Unblock</string>
-    <string name="unblock_account">Unblock Account?</string>
-    <string name="confirm_to_unblock_this_account">Confirm to unblock this account</string>
-    <string name="no_blocked_accounts">no blocked accounts</string>
+    <string name="unblock_account">Unblock Profile?</string>
+    <string name="confirm_to_unblock_this_account">Confirm to unblock this profile</string>
+    <string name="no_blocked_accounts">no blocked profiles</string>
     <string name="cancel">Cancel</string>
     <string name="post_by">Post by</string>
     <string name="liked_by">Liked by</string>
@@ -54,7 +54,7 @@
     <string name="yearly">yearly</string>
     <string name="monthly">monthly</string>
     <string name="daily">daily</string>
-    <string name="i_don_t_have_an_account">I don\'t have an account</string>
+    <string name="i_don_t_have_an_account">I don\'t have a profile</string>
     <string name="server_url">Server URL</string>
     <string name="are_you_sure_you_want_to_log_out">Are you sure you want to log out?</string>
     <string name="logout_questionmark">Logout?</string>
@@ -86,7 +86,7 @@
     <string name="followers_only">followers only</string>
     <string name="audience_public">public</string>
     <string name="no_followed_hashtags">No followed hashtags</string>
-    <string name="no_muted_accounts">No muted accounts</string>
+    <string name="no_muted_accounts">No muted profiles</string>
     <string name="visibility_x">Visibility: %1$s</string>
     <string name="clear_cache">Clear cache</string>
     <string name="preferences">Preferences</string>
@@ -102,7 +102,7 @@
     <string name="explore_trending_profiles">Explore trending profiles</string>
     <string name="nobody_follows_you_yet">Nobody follows you yet</string>
     <string name="empty">Empty</string>
-    <string name="follow_accounts_or_hashtags_to_fill_your_home_timeline">Follow accounts or hashtags to fill your home timeline</string>
+    <string name="follow_accounts_or_hashtags_to_fill_your_home_timeline">Follow profiles or hashtags to fill your home timeline</string>
     <string name="no_posts">No posts</string>
     <string name="home_timeline_explained">The Home timeline shows you posts from people and hashtags that you follow</string>
     <string name="local_timeline_explained">The Local timeline shows posts from all users in your server</string>
@@ -123,8 +123,8 @@
     <string name="more_information">More information</string>
     <string name="what_makes_a_post_trend">What makes a post trend?</string>
     <string name="trending_post_description">Posts trend if they were posted during the selected timeframe and have many likes.</string>
-    <string name="trending_account_description">The trending accounts section lists the accounts on your instance with the most followers. The accounts you already follow are hidden.</string>
-    <string name="what_makes_an_account_trend">What makes an account trend?</string>
+    <string name="trending_account_description">The trending profiles section lists the profiles on your instance with the most followers. The profiles you already follow are hidden.</string>
+    <string name="what_makes_an_account_trend">What makes an profile trend?</string>
     <string name="what_makes_a_hashtag_trend">What makes a hashtag trend?</string>
     <string name="trending_hashtag_description">Hashtags trend if many people have used them recently.</string>
     <string name="private_profile">Private profile</string>
@@ -144,10 +144,10 @@
     <string name="block_consequence_9">• The user won’t see you in public timelines</string>
     <string name="block_consequence_10">If you and the blocked user are on the same server, the blocked user will not be able to view your posts on your profile while logged in.</string>
     <string name="block">Block</string>
-    <string name="block_account">Block Account?</string>
-    <string name="unmute_account">Unmute Account?</string>
+    <string name="block_account">Block profile?</string>
+    <string name="unmute_account">Unmute Profile?</string>
     <string name="mute">Mute</string>
-    <string name="mute_account">Mute Account?</string>
+    <string name="mute_account">Mute Profile?</string>
     <string name="sent_a_dm">sent a dm</string>
     <string name="theme_system">system</string>
     <string name="theme_dark">dark</string>
@@ -186,14 +186,14 @@
     <string name="mentioned_you">mentioned you</string>
     <string name="latest_image_widget_description">have a look at the newest post from your home timeline, right on your homescreen</string>
     <string name="two_icons_info">If an icon other than the default icon is selected, two icons will be displayed in your apps drawer.</string>
-    <string name="current_account">Current Account:</string>
-    <string name="other_accounts">Other Accounts:</string>
-    <string name="add_pixelfed_account">Add Pixelfed account</string>
+    <string name="current_account">Current Profile:</string>
+    <string name="other_accounts">Other Profiles:</string>
+    <string name="add_pixelfed_account">Add Pixelfed profile</string>
     <string name="download_image">Download image</string>
     <string name="profile">Profile</string>
     <string name="alerts">Inbox</string>
-    <string name="are_you_sure_you_want_to_remove_this_account">Are you sure you want to remove this Account?</string>
-    <string name="remove_account">Remove Account?</string>
+    <string name="are_you_sure_you_want_to_remove_this_account">Are you sure you want to remove this Profile?</string>
+    <string name="remove_account">Remove Profile?</string>
     <string name="remove">Remove</string>
     <string name="sure_update_post">Are you sure, you want to update this post?</string>
     <string name="mutual_followers">Mutual followers</string>
@@ -215,4 +215,5 @@
     <string name="focus_mode">Focus Mode</string>
     <string name="focus_mode_description">Hides description, likes and buttons from posts.</string>
     <string name="repost_settings">Repost settings</string>
+    <string name="amoled">AMOLED</string>
 </resources>

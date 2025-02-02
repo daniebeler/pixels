@@ -210,9 +210,10 @@
     <string name="website">Sito web</string>
     <string name="location">Luogo</string>
     <string name="mentions">Menzioni</string>
-    <string name="explore">Explore</string>
-    <string name="reblogged_by">reblogged by %1$s</string>
-    <string name="focus_mode">Focus Mode</string>
-    <string name="focus_mode_description">Hides description, likes and buttons from posts.</string>
-    <string name="repost_settings">Repost settings</string>
+    <string name="explore">Esplora</string>
+    <string name="reblogged_by">ricondiviso da %1$s</string>
+    <string name="focus_mode">Modalità Focus</string>
+    <string name="focus_mode_description">Nasconde le descrizioni, i \"mi piace\" e i pulsanti dai post.</string>
+    <string name="repost_settings">Impostazioni di ripubblicazione</string>
+    <string name="amoled">AMOLED</string>
 </resources>
