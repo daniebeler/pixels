@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="notifications">Notifications</string>
-    <string name="settings">Settings</string>
-    <string name="liked_posts">Liked Posts</string>
+    <string name="notifications">Meddelelse</string>
+    <string name="settings">Indstilling</string>
+    <string name="liked_posts">Synes Godt Om Indlæg</string>
     <string name="bookmarked_posts">Bookmarked Posts</string>
     <string name="followed_hashtags">Followed Hashtags</string>
     <string name="blocked_accounts">Blocked Profiles</string>
@@ -215,4 +215,5 @@
     <string name="focus_mode">Focus Mode</string>
     <string name="focus_mode_description">Hides description, likes and buttons from posts.</string>
     <string name="repost_settings">Repost settings</string>
+    <string name="amoled">AMOLED</string>
 </resources>
