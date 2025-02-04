@@ -176,7 +176,7 @@
     <string name="message">Nachricht</string>
     <string name="all">Alle</string>
     <string name="likes_">Favoriten</string>
-    <string name="reposts">Reposts</string>
+    <string name="reposts">Boosts</string>
     <string name="edit_post">Beitrag bearbeiten</string>
     <string name="notification_widget_description">Bleiben Sie mit Ihren neuesten Benachrichtigungen von Pixelfed direkt auf Ihrem Startbildschirm auf dem Laufenden.</string>
     <string name="customize_app_icon">App-Icon ändern</string>
@@ -214,5 +214,6 @@
     <string name="reblogged_by">geteilt von %1$s</string>
     <string name="focus_mode">Focus Mode</string>
     <string name="focus_mode_description">Hides description, likes and buttons from posts.</string>
-    <string name="repost_settings">Repost settings</string>
+    <string name="repost_settings">Boost-Einstellungen</string>
+    <string name="amoled">AMOLED</string>
 </resources>

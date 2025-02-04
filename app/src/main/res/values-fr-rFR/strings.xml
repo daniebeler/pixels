@@ -215,4 +215,5 @@
     <string name="focus_mode">Focus Mode</string>
     <string name="focus_mode_description">Hides description, likes and buttons from posts.</string>
     <string name="repost_settings">Repost settings</string>
+    <string name="amoled">AMOLED</string>
 </resources>

@@ -79,7 +79,7 @@
     <string name="release">Publicar</string>
     <string name="alt_text">Texto descritivo</string>
     <string name="caption">legenda</string>
-    <string name="sensitive_nsfw_media">Mídia sensível / adultos</string>
+    <string name="sensitive_nsfw_media">Mídia sensível / para adultos</string>
     <string name="content_warning_or_spoiler_text">aviso de conteúdo ou texto revelador</string>
     <string name="audience">Audiência</string>
     <string name="unlisted">não listado</string>
@@ -148,7 +148,7 @@
     <string name="unmute_account">Desativar silenciamento da conta?</string>
     <string name="mute">Silenciar</string>
     <string name="mute_account">Silenciar conta?</string>
-    <string name="sent_a_dm">enviou uma MD</string>
+    <string name="sent_a_dm">enviou uma mensagem direta</string>
     <string name="theme_system">sistema</string>
     <string name="theme_dark">escuro</string>
     <string name="theme_light">claro</string>
@@ -159,7 +159,7 @@
     <string name="warning">Aviso</string>
     <string name="direct_messages_encryption_description">"As mensagens diretas no Pixelfed não são encriptadas de ponta a ponta. Tem cuidado ao partilhar dados sensíveis. "</string>
     <string name="confirm">Confirmo</string>
-    <string name="beginning_of_chat_note">Este é o início da sua conversa com este utilizador. Não te esqueças de demonstrar respeito.</string>
+    <string name="beginning_of_chat_note">Este é o início da tua conversa com este utilizador. Não te esqueças de demonstrar respeito.</string>
     <string name="rate_us">Avalia-nos</string>
     <string name="about_pixelix">Sobre o Pixelix</string>
     <string name="developed_by">Desenvolvido por</string>
@@ -176,7 +176,7 @@
     <string name="message">Mensagem</string>
     <string name="all">Tudo</string>
     <string name="likes_">Gostos</string>
-    <string name="reposts">Reposts</string>
+    <string name="reposts">Impulsos</string>
     <string name="edit_post">Editar esta publicação</string>
     <string name="notification_widget_description">Mantém-te atualizado com as últimas notificações do Pixelfed diretamente no teu ecrã inicial</string>
     <string name="customize_app_icon">Personalizar ícone da aplicação</string>
@@ -192,7 +192,7 @@
     <string name="download_image">Descarregar imagem</string>
     <string name="profile">Perfil</string>
     <string name="alerts">Caixa de entrada</string>
-    <string name="are_you_sure_you_want_to_remove_this_account">Are you sure you want to remove this Account?</string>
+    <string name="are_you_sure_you_want_to_remove_this_account">Tem certeza de que deseja remover esta conta?</string>
     <string name="remove_account">Remover conta?</string>
     <string name="remove">Remover</string>
     <string name="sure_update_post">Queres mesmo atualizar esta publicação?</string>
@@ -203,16 +203,17 @@
     <string name="total_posts">Total de publicações:</string>
     <string name="total_users">Total de utilizadores:</string>
     <string name="active_users">Utilizadores ativos:</string>
-    <string name="server_version">%1$s version %2$s</string>
+    <string name="server_version">%1$s versão %2$s</string>
     <string name="visit_url">Visitar %1$s</string>
     <string name="displayname">Nome a apresentar</string>
     <string name="bio">Biografia</string>
-    <string name="website">Website</string>
+    <string name="website">Site</string>
     <string name="location">Localização</string>
     <string name="mentions">Menções</string>
-    <string name="explore">Explore</string>
-    <string name="reblogged_by">reblogged by %1$s</string>
-    <string name="focus_mode">Focus Mode</string>
-    <string name="focus_mode_description">Hides description, likes and buttons from posts.</string>
-    <string name="repost_settings">Repost settings</string>
+    <string name="explore">Explorar</string>
+    <string name="reblogged_by">impulsionado por %1$s</string>
+    <string name="focus_mode">Modo de foco</string>
+    <string name="focus_mode_description">Oculta a descrição, gostos e botões das publicações.</string>
+    <string name="repost_settings">Configurações de impulsos</string>
+    <string name="amoled">AMOLED</string>
 </resources>

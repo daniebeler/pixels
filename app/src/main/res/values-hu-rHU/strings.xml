@@ -212,7 +212,8 @@
     <string name="mentions">Említések</string>
     <string name="explore">Felfedezés</string>
     <string name="reblogged_by">megosztotta %1$s</string>
-    <string name="focus_mode">Focus Mode</string>
-    <string name="focus_mode_description">Hides description, likes and buttons from posts.</string>
-    <string name="repost_settings">Repost settings</string>
+    <string name="focus_mode">Fókusz mód</string>
+    <string name="focus_mode_description">Elrejti a bejegyzések alól a leírást, a kedveléseket és a gombokat.</string>
+    <string name="repost_settings">Megosztások beállítása</string>
+    <string name="amoled">AMOLED</string>
 </resources>
