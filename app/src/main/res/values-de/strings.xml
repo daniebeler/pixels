@@ -213,4 +213,6 @@
     <string name="focus_mode">Focus Mode</string>
     <string name="focus_mode_description">Hides description, likes and buttons from posts.</string>
     <string name="repost_settings">Repost settings</string>
+    <string name="no_followers_yet">No followers yet</string>
+    <string name="not_following_anyone">Not following anyone</string>
 </resources>

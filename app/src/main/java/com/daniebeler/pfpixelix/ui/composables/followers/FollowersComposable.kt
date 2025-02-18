@@ -59,11 +59,17 @@ fun FollowersComposable(
     })
 
     if (!viewModel.followersState.isLoading && viewModel.followersState.error.isEmpty() && viewModel.followersState.followers.isEmpty()) {
+
+        val message = if (viewModel.loggedInAccountId == viewModel.accountId)
+            stringResource(R.string.nobody_follows_you_yet)
+        else
+            stringResource(R.string.no_followers_yet)
+
         FullscreenEmptyStateComposable(
             emptyState = EmptyState(
                 icon = Icons.Outlined.Groups,
                 heading = stringResource(R.string.empty),
-                message = stringResource(R.string.nobody_follows_you_yet)
+                message = message
             )
         )
     }

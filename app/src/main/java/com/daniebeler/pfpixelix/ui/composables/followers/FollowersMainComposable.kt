@@ -55,6 +55,7 @@ fun FollowersMainComposable(
         viewModel.getAccount(accountId)
         viewModel.getFollowersFirstLoad()
         viewModel.getFollowingFirstLoad()
+        viewModel.setLoggedInAccountIdValue()
     }
 
 

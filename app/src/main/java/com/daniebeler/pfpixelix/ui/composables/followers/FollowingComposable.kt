@@ -60,10 +60,17 @@ fun FollowingComposable(
     })
 
     if (!viewModel.followingState.isLoading && viewModel.followingState.error.isEmpty() && viewModel.followingState.following.isEmpty()) {
+
+        val message = if (viewModel.loggedInAccountId == viewModel.accountId)
+            stringResource(R.string.the_profiles_you_follow_will_appear_here)
+        else
+            stringResource(R.string.not_following_anyone)
+
+
         FullscreenEmptyStateComposable(
             emptyState = EmptyState(icon = Icons.Outlined.Groups,
                 heading = stringResource(id = R.string.empty),
-                message = stringResource(R.string.the_profiles_you_follow_will_appear_here),
+                message = message,
                 buttonText = stringResource(R.string.explore_trending_profiles),
                 onClick = {
                     Navigate.navigate("trending_screen/accounts", navController)
