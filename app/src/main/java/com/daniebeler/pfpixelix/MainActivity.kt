@@ -474,8 +474,11 @@ fun NavigationGraph(navController: NavHostController) {
             }
         }
 
-        composable(Destinations.Search.route) {
-            ExploreComposable(navController)
+        composable(Destinations.Search.route) { navBackStackEntry ->
+            val initialPage = navBackStackEntry.arguments?.getString("initialPage")
+            initialPage?.let {
+                ExploreComposable(navController, it.toIntOrNull() ?: 0)
+            }
         }
 
         composable(Destinations.Conversation.route) {

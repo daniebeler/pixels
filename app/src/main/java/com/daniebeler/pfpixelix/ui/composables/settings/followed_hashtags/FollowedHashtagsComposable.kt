@@ -88,7 +88,7 @@ fun FollowedHashtagsComposable(
                             message = "Followed hashtags will appear here",
                             buttonText = "Explore trending hashtags",
                             onClick = {
-                                Navigate.navigate("trending_screen/hashtags", navController)
+                                Navigate.navigate("search_screen/2", navController)
                             })
                     )
                 }

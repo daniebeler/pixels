@@ -39,7 +39,7 @@ sealed class Destinations(
     )
 
     data object Search : Destinations(
-        route = "search_screen",
+        route = "search_screen/{initialPage}",
         icon = R.drawable.search_outline,
         activeIcon = R.drawable.search,
         label = R.string.search

@@ -82,6 +82,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun ExploreComposable(
     navController: NavController,
+    initialPage: Int = 0,
     viewModel: ExploreViewModel = hiltViewModel(key = "search-viewmodel-key")
 ) {
     val context: Context = LocalContext.current
@@ -201,7 +202,7 @@ fun ExploreComposable(
                     navController = navController
                 )
             } else {
-                TrendingComposable(navController)
+                TrendingComposable(navController, initialPage = initialPage)
             }
         }
 

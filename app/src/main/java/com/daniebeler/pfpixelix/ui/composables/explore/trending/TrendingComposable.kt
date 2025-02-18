@@ -38,9 +38,9 @@ import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun TrendingComposable(navController: NavController) {
+fun TrendingComposable(navController: NavController, initialPage: Int) {
 
-    val pagerState = rememberPagerState(initialPage = 0, pageCount = { 3 })
+    val pagerState = rememberPagerState(initialPage = initialPage, pageCount = { 3 })
 
     val scope = rememberCoroutineScope()
 
